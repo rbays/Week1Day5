@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta name = "viewport" content="width=device-width,initial-scale=1">
+	  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<link rel = "stylesheet" href = "taxCalculatorFancy.css" type="text/css">
+	
+</head>
+<body>
+	<div class = "container">
+		<div class = "jumbotron"><h1>Salary Tax Calculator</h1><h4>Please enter your gross salary to calculate your tax and NI</h4></div>
+		<div class = "row" id = "inputArea">
+			<div class = "col-sm-12">
+				<span id = "married">Are you married?<input type = "checkbox" id = "marriedCheck"></span>
+				<span id = "writing">Gross Salary (GBP) :</span>
+				<input type = number id = "grossInput" placeholder = "Enter Salary Here">
+				<button id = "calculateButton">Calculate</button>
+			</div>	
+		</div><!--row 1 (input area) end-->
+		
+		<div class = "row" id = "outputArea" style = "display:none">
+			<div class = "col-xs-4">
+				<div>
+					<h4>Gross Salary</h4>
+					<h5 id = "grossOutput">Test £100</h5>
+				</div>
+			</div> 
+			<div class = "col-xs-4">
+				<div>
+					<h4>Tax</h4>
+					<h5 id = "taxOutput">Test -£20</h5>
+					<h4>NI</h4>
+					<h5 id = "niOutput">TestNi</h5>
+				</div>
+			</div>
+			<div class = "col-xs-4">
+				<div>
+					<h4>Net Takehome</h4>
+					<h5 id = "totalTakehome">Test Total</h5>
+				</div>	
+			</div>
+		
+		
+	
+		</div><!--row 2 (output area) end-->
+	</div><!--container end-->
+	<script src = "taxCalculatorFancy.js" type = "text/javascript"></script>
+</body>	
+</html>

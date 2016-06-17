@@ -1,0 +1,44 @@
+body {
+	background-color: cadetblue;
+}
+
+div{
+	font-family: helvetica;
+}
+
+.jumbotron {
+	border: 2px solid #bbbbbb;
+	border-radius: 5px;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+#outputArea > div > div {
+	border: 2px solid #bbbbbb;
+	border-radius: 5px;
+	margin: 3px;
+	padding: 5px;
+	background-color: #ffffff;
+}
+
+button {
+	background-color: #bbbbbb;
+	border-radius: 7px;
+}
+
+#writing, #married {
+	background-color: #dddddd;
+	padding: 4px;
+	border: 2px solid #999999;
+	border-radius: 3px;
+	margin: 0px;
+}
+
+#grossInput {
+	background-color: #dddddd;
+	margin: 0px;
+}
+
+#inputArea {
+	margin-bottom: 7px;
+}
